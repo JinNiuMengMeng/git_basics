@@ -6,6 +6,6 @@
 
 foo/   # foo文件被忽略
 
-**/res 所有目录名为res的目录均被忽略
-build/ 忽略build目录
+**/res # 所有目录名为res的目录均被忽略
+build/ # 忽略build目录
 .idea/
