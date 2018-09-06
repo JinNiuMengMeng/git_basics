@@ -1,11 +1,8 @@
-*.[oa]    # 忽略所有以o或者a结尾的文件
+*.[oa]
 *.~
-
-*.pyc    # 忽略所有pyc结尾的文件, 但是除了test.pyc
+*.pyc
 !test.pyc
-
-foo/   # foo文件被忽略
-
-**/res # 所有目录名为res的目录均被忽略
-build/ # 忽略build目录
+foo/
+**/res
+build/
 .idea/
